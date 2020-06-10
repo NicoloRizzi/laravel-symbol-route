@@ -18,6 +18,6 @@ Route::get('/', function () {
 });
 
 /**
- * THIS IS A ROUTE FOR A PAGE1
+ * THIS IS A ROUTE FOR A INDEX CONTACTS
  */
-Route::get('/page1', 'Page1Controller@index');
+Route::get('/contacts/index', 'ContactController@index');

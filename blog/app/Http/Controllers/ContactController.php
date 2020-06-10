@@ -4,12 +4,12 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class Page1Controller extends Controller
+class ContactController extends Controller
 {
     /**
-     * SHOW A PAGE TEST
+     * RETURN A VIEW FOR INDEX CONTACT PAGE
      */
     public function index() {
-        return 'Pagina di Test';
+        return view('contacts.index');
     }
 }
