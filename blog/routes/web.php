@@ -20,6 +20,4 @@ Route::get('/', function () {
 /**
  * THIS IS A ROUTE FOR A PAGE1
  */
-Route::get('/page1', function (){
-    return view('page1');
-});
+Route::get('/page1', 'Page1Controller@index');
