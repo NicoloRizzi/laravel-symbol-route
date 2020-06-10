@@ -10,5 +10,6 @@
     <header>
         <h1>Welcome in a Contacts page with a Controller routing system</h1>
     </header>
+    @include('shared.header')
 </body>
 </html>
