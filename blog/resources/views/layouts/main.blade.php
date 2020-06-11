@@ -15,5 +15,6 @@
     <body>
         {{-- @include('shared.header') --}}
         @yield('header')
+        @yield('footer')
     </body>
 </html>

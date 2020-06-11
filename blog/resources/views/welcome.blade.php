@@ -1,5 +1,5 @@
 @extends('layouts.main')
-
+@extends('layouts.header')
 {{-- @section('content')
 
     <div class="flex-center position-ref full-height">
@@ -17,3 +17,4 @@
             </div>
         @endif
 @endsection --}}
+@extends('layouts.footer')
