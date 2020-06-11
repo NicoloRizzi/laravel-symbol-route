@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @extends('layouts.header')
-{{-- @section('content')
+@section('content')
 
     <div class="flex-center position-ref full-height">
         @if (Route::has('login'))
@@ -16,5 +16,6 @@
                 @endauth
             </div>
         @endif
-@endsection --}}
+@endsection
+
 @extends('layouts.footer')
